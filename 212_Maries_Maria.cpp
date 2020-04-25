@@ -52,7 +52,6 @@ public:
         this->next = n.next;
         return *this;
     }
-    friend class Nod_dublu;
 };
 
 class Nod_dublu : public Nod{
